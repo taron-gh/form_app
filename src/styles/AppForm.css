@@ -1,0 +1,36 @@
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 70% 0% 0%;
+}
+
+#countryCode{
+    width: 20%;
+}
+
+#phoneNumber{
+    width: 80%;
+}
+
+.phoneContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+label, input{
+    padding: 3px 0px 3px 0px;
+}
+span{
+    color: red;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
